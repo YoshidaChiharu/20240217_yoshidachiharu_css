@@ -1,0 +1,52 @@
+.header {
+    padding: 20px 30px ;
+    color: #00277e;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__name {
+    font-size: 1.5rem;
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+}
+
+.header__nav-item {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.header__nav-item a {
+    text-decoration: none;
+}
+
+.fv__top {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.fv__copy {
+    font-size: 4.0rem;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.fv__img {
+    width: 50%;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+}
+
+.fv__bluebox {
+    width: 75%;
+    height: 25vh;
+    background: #00277e;
+}
